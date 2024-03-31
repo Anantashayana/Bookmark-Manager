@@ -1,0 +1,77 @@
+/* src/styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Collection sidebar styles */
+  .collection-sidebar {
+    background-color: #eee;
+    width: 200px;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+  }
+  
+  .collection-sidebar h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .collection-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .collection-sidebar ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .collection-sidebar ul li:hover {
+    background-color: #ddd;
+  }
+  
+  /* Bookmark list styles */
+  .bookmark-list {
+    padding: 1rem;
+  }
+  
+  .bookmark {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bookmark h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .bookmark p {
+    margin: 0.5rem 0;
+  }
+  
+  .bookmark a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .bookmark a:hover {
+    text-decoration: underline;
+  }
+  

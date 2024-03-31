@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <!-- Your logo image or text here -->
+    </div>
+    <h1>Bookmark Extension</h1>
+    <p class="subheading">Save your bookmarks easily</p>
+</header>
+<main>
+    <form id="bookmarkForm">
+        <div class="form-group">
+            <label for="bookmarkName">Name:</label>
+            <input type="text" id="bookmarkName" name="bookmarkName" placeholder="Site Name" required>
+        </div>
+        <div class="form-group">
+            <label for="bookmarkNote">Note:</label>
+            <textarea id="bookmarkNote" name="bookmarkNote" placeholder="Note"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="bookmarkCollection">Collection:</label>
+            <input type="text" id="bookmarkCollection" name="bookmarkCollection" placeholder="Collection">
+        </div>
+        <div class="form-group">
+            <label for="bookmarkTag">Tag:</label>
+            <input type="text" id="bookmarkTag" name="bookmarkTag" placeholder="Tag">
+        </div>
+        <div class="form-group">
+            <label for="bookmarkURL">URL:</label>
+            <input type="url" id="bookmarkURL" name="bookmarkURL" placeholder="Website URL" required>
+        </div>
+        <button type="submit">Save Bookmark</button>
+    </form>
+</main>
+
+</body>
+</html>

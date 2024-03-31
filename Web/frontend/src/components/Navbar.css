@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #2C3E50; /* Dark blue */
+    color: #ECF0F1; /* Light gray */
+    padding: 15px;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    margin: 0;
+    font-size: 32px; /* Larger font size */
+    font-family: 'Arial', sans-serif; /* Example font family */
+    color: #3498DB; /* Blue color */
+}
+
+.navbar__user {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__username {
+    margin-right: 10px;
+    font-size: 18px; /* Smaller font size */
+    color: #E74C3C; /* Red color */
+}
+
+.navbar__profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
